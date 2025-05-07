@@ -352,7 +352,7 @@ function create_klipper_service() {
   cfg="${cfg_dir}/printer.cfg"
   log="${printer_data}/logs/klippy.log"
   klippy_serial="${printer_data}/comms/klippy.serial"
-  klippy_socket="${printer_data}/comms/klippy.sock"
+  klippy_socket="${printer_data}/comms/klippy.serial.api"
   env_file="${printer_data}/systemd/klipper.env"
 
   if [[ ${instance_name} == "printer" ]]; then
